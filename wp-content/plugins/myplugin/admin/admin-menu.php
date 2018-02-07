@@ -69,6 +69,6 @@ function myplugin_add_toplevel_menu() {
 	);
 	
 }
-// add_action( 'admin_menu', 'myplugin_add_toplevel_menu' );
+add_action( 'admin_menu', 'myplugin_add_toplevel_menu' );
 
 
